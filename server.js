@@ -10,6 +10,7 @@ corsProxy
     originWhitelist: [
       'http://localhost:3000',
       'http://127.0.0.1:3000',
+      'http://localhost:19006',
       'https://uber-clone-thiagoow.vercel.app'
     ],
     requireHeader: ['origin', 'x-requested-with'],
